@@ -5,14 +5,42 @@ hangman_word = rw.random_word()
 hangman_list = []
 for letter in hangman_word:
     hangman_list.append(letter)
-print(hangman_list)
 
 x = len(hangman_word)
 underscored = ['_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_','_', '_',][0:x]
 
 trys = 6
-
-
+hangmanztry0 = """
+ o
+-|-
+ /|
+"""
+hangmanztry1 = """
+ 
+-|-
+ /|
+"""
+hangmanztry2 = """
+ 
+-|
+ /|
+"""
+hangmanztry3 = """
+ 
+ |
+ /|
+"""
+hangmanztry4 = """
+ 
+ 
+ /|
+"""
+hangmanztry5 = """
+ 
+ 
+ |
+"""
+print(underscored)
 letter1 = input("""What first letter?
 """)
 if letter1 in hangman_word:
@@ -30,14 +58,32 @@ if letter1 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
+
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
+
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
+
 
 
 letter2 = input("""What second letter?
@@ -57,14 +103,29 @@ if letter2 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+	print("You won")
+	exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter3 = input("""What third letter?
 """)
@@ -83,14 +144,29 @@ if letter3 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter4 = input("""What fourth letter?
 """)
@@ -109,14 +185,29 @@ if letter4 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 letter5 = input("""What fifth letter?
 """)
 
@@ -135,14 +226,29 @@ if letter5 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter6 = input("""What sixth letter?
 """)
@@ -164,11 +270,26 @@ else:
     trys -= 1
     print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter7 = input("""What seventh letter?
 """)
@@ -187,14 +308,29 @@ if letter7 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter8 = input("""What eighth letter?
 """)
@@ -213,14 +349,29 @@ if letter8 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter9 = input("""What ninth letter?
 """)
@@ -239,14 +390,29 @@ if letter9 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 letter10 = input("""What tenth letter?
 """)
@@ -265,14 +431,29 @@ if letter10 in hangman_word:
         print(underscored)
         x -= 1
 else:
-    trys -= 1
-    print("No such letter. " + str(trys) + " attempts left.")
+  trys -= 1
+  print("No such letter. " + str(trys) + " attempts left.")
 if x == 0:
-    print("You won")
-    exit()
+  print("You won")
+  exit()
 if trys == 0:
-    print("You ran out of trys!")
-    exit()
+	print("You ran out of trys!")
+	print(hangmanztry0)
+
+if trys == 1:
+	print(hangmanztry1)
+
+if trys == 2:
+	print(hangmanztry2)
+
+if trys == 3:
+	print(hangmanztry3)
+
+if trys == 4:
+	print(hangmanztry4)
+
+if trys == 5:
+	print(hangmanztry5)
 
 
 
